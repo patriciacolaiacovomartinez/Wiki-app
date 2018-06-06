@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    background-color: rgb(182, 177, 177);
+    
+
+}
+header img {
+    border: 5px solid black;
+    margin-bottom: 4vh;
+    min-width: 25vw;
+    max-width: 25vw;
+    min-height: 30vh;
+    max-height: 30vh;
+}
+
+.search {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.random {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.searchTerm{
+    padding: 20px;
+    margin: 4px 2px;
+}
